@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cumpleaños - Yoskitoki</title>
+    <link rel="stylesheet" href="slyles.css">
+</head>
+<body>
+    <!-- Pantalla de bienvenida -->
+    <section id="welcome-screen" class="screen">
+        <h1>Buenos Días</h1>
+        <button id="continue-btn">Click para continuar</button>
+    </section>
+
+    <!-- Pregunta interactiva -->
+    <section id="question-screen" class="screen hidden">
+        <h2>¿Aceptas el regalo?</h2>
+        <button id="accept-btn">Sí</button>
+        <br>
+        <button id="decline-btn">No</button>
+    </section>
+
+    <!-- Pantalla del poema -->
+    <section id="poem-screen" class="screen hidden">
+        <h2>¡Feliz Cumpleaños!</h2>
+        <p>
+            En este día tan especial, te deseo un mar de felicidad.<br>
+            Que cada momento esté lleno de alegría,<br>
+            y que la vida te regale lo mejor cada día.<br>
+            ¡Feliz cumpleaños, con todo mi cariño!
+        </p>
+        <div id="heart-container">
+            <div class="heart"></div>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
